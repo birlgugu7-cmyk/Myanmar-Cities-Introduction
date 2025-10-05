@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>缅甸旅游官网 - 柔和彩色版</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- Hero轮播 -->
+<div class="hero">
+  <div class="slider">
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
+  <header>
+    <nav>
+      <a href="#bagan">蒲甘</a>
+      <a href="#inle">茵莱湖</a>
+      <a href="#yangon">仰光</a>
+    </nav>
+  </header>
+  <div class="hero-content">
+    <h1>发现缅甸之美</h1>
+    <p>寺庙 | 湖泊 | 文化</p>
+    <button id="playVideo">观看介绍视频</button>
+  </div>
+</div>
+
+<!-- 蒲甘 -->
+<section id="bagan" style="background:linear-gradient(to bottom right, rgba(255,209,127,0.4), rgba(255,180,100,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Bagan_Temple.jpg') center/cover no-repeat;">
+  <div class="content">
+    <div class="text">
+      <h2>蒲甘寺庙群</h2>
+      <p>拥有上千座佛塔和寺庙，清晨乘热气球游览，是一次难忘的体验。</p>
+    </div>
+    <div class="image">
+      <img src="https://www.agoda.com/wp-content/uploads/2018/06/Destinations_12-months-12-reasons_Bagan_Myanmar_hot-air-balloon_ancient-city.jpg" alt="蒲甘寺庙">
+    </div>
+  </div>
+</section>
+
+<!-- 茵莱湖 -->
+<section id="inle" style="background:linear-gradient(to bottom right, rgba(144,224,239,0.4), rgba(0,191,165,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/1/1d/Inle_Lake.jpg') center/cover no-repeat;">
+  <div class="content">
+    <div class="image">
+      <img src="https://asiapioneertravel.com/wp-content/uploads/2023/07/inle-lake-6.jpg" alt="茵莱湖">
+    </div>
+    <div class="text">
+      <h2>茵莱湖风光</h2>
+      <p>独特的单脚划船渔夫和湖上村庄闻名，还有手工艺市场和跳鱼表演。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 仰光 -->
+<section id="yangon" style="background:linear-gradient(to bottom right, rgba(255,182,193,0.4), rgba(255,105,180,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/d/d0/Shwedagon_Pagoda.jpg') center/cover no-repeat;">
+  <div class="content">
+    <div class="text">
+      <h2>仰光大金塔</h2>
+      <p>缅甸最著名的佛教圣地，金光闪闪的塔身和周边庙宇体现了浓厚的宗教文化。</p>
+    </div>
+    <div class="image">
+      <img src="https://image.cdn-eztravel.com.tw/Pm0Vqo6eqnI-MTtVtfFFgZgZgVrEStkfjv6eYozWEc8/g:ce/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L3BvaS9CVS9SR04vU2h3ZWRhZ29uUGFnb2RhL3NodXR0ZXJzdG9ja18zOTMyNjM4NDJjb21wcmVzcy5qcGc.jpg" alt="仰光大金塔">
+    </div>
+  </div>
+</section>
+
+<footer>&copy;2025 缅甸旅游官网 | 版权所有</footer>
+
+<!-- 视频弹窗 -->
+<div class="modal" id="videoModal">
+  <video controls src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
